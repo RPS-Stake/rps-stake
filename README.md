@@ -1,11 +1,66 @@
-# RPS-onChain
+# RPS-OnChain Ecosystem
 
 ![RPS-onChain](packages/nextjs/public/rpsOnchainLogo.png)
+
+This repository contains two Rock Paper Scissors projects:
+
+## 🎮 RPS-OnChain (Current - Free to Play)
+
 A free-to-play decentralized Rock Paper Scissors game with AI and multiplayer modes. Multi-chain support (Celo + Base). Built with scaffold-eth-2.
 
-### Available on Farcaster at: https://farcaster.xyz/miniapps/e7MMsOYu-YxM/rps-onchain
+**Available on Farcaster at:** https://farcaster.xyz/miniapps/e7MMsOYu-YxM/rps-onchain
 
-## Game Features
+## 💰 RPS-Stake (In Development - Skill-Based Betting)
+
+A premium skill-based Rock Paper Scissors betting platform with cryptocurrency integration and age verification. Fork of RPS-OnChain with monetization features.
+
+**📋 Full Specification:** [`.kiro/specs/rps-stake/`](.kiro/specs/rps-stake/)
+
+### RPS-Stake Key Features:
+
+- **Crypto-Only Payments:** Multi-chain support (Base, Celo, Ethereum, Optimism, Arbitrum)
+- **Age Verification:** Self Protocol integration (18+ only)
+- **RPS-Coin Economy:** $1 = 10 coins, stake to win against AI
+- **AI Opponent:** 75% house edge, pattern recognition algorithms
+- **Daily Limits:** 50 coins wagered, 10 matches max (responsible gaming)
+- **Cashout System:** Convert winnings back to cryptocurrency
+- **Future Phases:** DeFi staking (2% weekly APR), friend battles, tournaments
+
+### Development Status:
+
+- **Phase 1:** Core betting platform (12-16 weeks) - _Planning Complete_
+- **Phase 2:** DeFi staking layer - _Future_
+- **Phase 3:** Social gaming features - _Future_
+
+---
+
+## 📁 Repository Structure
+
+This repository contains both projects:
+
+```
+├── .kiro/specs/rps-stake/    # RPS-Stake specifications & planning
+│   ├── README.md             # Project overview & quick links
+│   ├── requirements.md       # Detailed requirements & user stories
+│   ├── design.md            # Technical architecture & smart contracts
+│   └── tasks.md             # Development timeline & task breakdown
+├── packages/                 # RPS-OnChain implementation (current)
+│   ├── hardhat/             # Smart contracts & deployment
+│   └── nextjs/              # Frontend application
+├── contracts/               # Self Protocol verification contracts
+└── Docs/                    # Additional documentation
+```
+
+**Getting Started:**
+
+- **Play RPS-OnChain:** Follow the [Quick Start](#-rps-onchain-quick-start) below
+- **Develop RPS-Stake:** Review the [specification](.kiro/specs/rps-stake/) first
+
+- **Phase 1:** Core betting platform (12-16 weeks) - _Planning Complete_
+- **Phase 2:** DeFi staking layer - _Future_
+- **Phase 3:** Social gaming features - _Future_
+
+## RPS-OnChain Game Features
 
 - **Wallet Authentication**: Reown AppKit + Wagmi integration
 - **Human Verification**: Self Protocol onchain identity verification
@@ -20,7 +75,7 @@ A free-to-play decentralized Rock Paper Scissors game with AI and multiplayer mo
 - **Stats Tracking**: Win/loss records stored in Turso database
 - **PWA Support**: Install as mobile app with offline capabilities
 
-## 🏗 Project Structure
+## 🏗 RPS-OnChain Project Structure
 
 ```
 packages/
@@ -44,7 +99,7 @@ packages/
     └── lib/          # Self Protocol dependencies
 ```
 
-## 🚀 Quick Start
+## 🚀 RPS-OnChain Quick Start
 
 ### Prerequisites
 
@@ -256,6 +311,8 @@ Contract addresses are auto-exported to `contracts/deployedContracts.ts` after d
 
 ## 🔮 Future Enhancements
 
+### RPS-OnChain (Free-to-Play):
+
 - **UX Improvements**: Fix QR code regeneration after successful verification
 - **Verification Optimization**: Improve database sync reliability
 - Tournament brackets with multi-round matches
@@ -263,8 +320,15 @@ Contract addresses are auto-exported to `contracts/deployedContracts.ts` after d
 - Achievement system
 - Real-time multiplayer lobbies (Random matchmaking)
 - Mobile app development
-- Optional betting mode (future)
 - Multi-chain verification support (Base, Polygon)
+
+### RPS-Stake (Betting Platform):
+
+See the [RPS-Stake specification](.kiro/specs/rps-stake/) for detailed development roadmap:
+
+- **Phase 1:** Core betting platform with AI matches (12-16 weeks)
+- **Phase 2:** DeFi staking layer with 2% weekly APR
+- **Phase 3:** Social gaming with friend battles and tournaments
 
 ## 🛠 Technical Stack
 
