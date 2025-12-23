@@ -1,20 +1,16 @@
-# RPS-OnChain Ecosystem
-
-![RPS-onChain](packages/nextjs/public/rpsOnchainLogo.png)
-
 This repository contains two Rock Paper Scissors projects:
 
-## 🎮 RPS-OnChain (Current - Free to Play)
+## PS-OnChain (Current - Free to Play)
 
 A free-to-play decentralized Rock Paper Scissors game with AI and multiplayer modes. Multi-chain support (Celo + Base). Built with scaffold-eth-2.
 
 **Available on Farcaster at:** https://farcaster.xyz/miniapps/e7MMsOYu-YxM/rps-onchain
 
-## 💰 RPS-Stake (In Development - Skill-Based Betting)
+## RPS-Stake (In Development - Skill-Based Betting)
 
 A premium skill-based Rock Paper Scissors betting platform with cryptocurrency integration and age verification. Fork of RPS-OnChain with monetization features.
 
-**📋 Full Specification:** [`.kiro/specs/rps-stake/`](.kiro/specs/rps-stake/)
+**Full Specification:** [`.kiro/specs/rps-stake/`](.kiro/specs/rps-stake/)
 
 ### RPS-Stake Key Features:
 
